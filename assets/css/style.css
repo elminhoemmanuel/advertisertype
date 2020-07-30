@@ -44,7 +44,7 @@
  .header{
      overflow-y: hidden;
      margin-bottom: 7%;
-     margin-top: 13%;
+     margin-top: 17%;
  }
 
 
@@ -144,11 +144,23 @@
     }
 
     .back-btn{
-        padding: 4% 12%;
+        padding: 4% 12% !important;
     }
 
     .back-holder{
         margin-top: 12%;
+    }
+
+    .choose-btn{
+        padding: 10% 13%;
+    }
+
+    .ad-type{
+        padding-top: 3%;
+    }
+
+    .header{
+        margin-top: 30%;
     }
 
 
