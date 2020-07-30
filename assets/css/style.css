@@ -55,7 +55,7 @@
 
  /* right section */
  .right-holder{
-    padding: 4% 4% 5% 8%;
+    padding: 4% 10% 5% 6%;
     background-image: url(../images/polygon.svg);
     background-position: right 0% top 0%;
     background-size: 41.6%;
@@ -66,42 +66,12 @@
     font-size: 0.7rem;
 }
 
-.choose-btn{
-    font-size: 1rem;
-    background-color: #362F74;
-    border: none;
-    padding: 10% 10%;
-}
-
-.choose-btn:hover{
-    background-color: #2C284F;
-}
-
-.select-card{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: nowrap;
-    border-radius: 6px;
-    box-shadow: 0 4px 8px 0 rgba(58, 42, 42, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.14);
-    -moz-box-shadow: 0 4px 8px 0 rgba(58, 42, 42, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.14);
-    -webkit-box-shadow: 0 4px 8px 0 rgba(58, 42, 42, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.14);
-    -o-box-shadow: 0 4px 8px 0 rgba(58, 42, 42, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.14);
-    width: 65%;
-    padding: 3.5% 1%;
-}
-
-.selection-holder{
-    padding: 0 !important;
-}
 
 .btn-holder{
     padding-top: 0;
     padding-left: 5%;
 }
 
-.advertiser{
-    margin-bottom: 4%;
-}
 
 .right-logo{
     display: none;
@@ -115,16 +85,72 @@
     font-size: 1rem;
     background-color: #362F74;
     border: none;
-    padding: 2% 10%;
+    padding: 2% 10% !important;
 
 }
 
-.ad-type{
-    padding-top: 3.6%;
-}
 
 .type-header{
     font-size:1.5rem
+}
+
+.acct-holder1{
+    margin-bottom: 4%;
+    padding-right: 3%;
+    overflow-y: hidden !important;
+}
+
+.acct-details{
+    margin:2% 0;
+    box-shadow: 0 4px 8px 0 rgba(58, 42, 42, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 0 4px 8px 0 rgba(58, 42, 42, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.14);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(58, 42, 42, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.14);
+    -o-box-shadow: 0 4px 8px 0 rgba(58, 42, 42, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.14);
+    height: 95% !important;
+    overflow-y: hidden !important;
+}
+
+.acct-header{
+    border: 1px solid #ececec;
+    padding: 4% 5%;
+}
+
+.acct-body{
+    border-left: 1px solid #ececec;
+    border-right: 1px solid #ececec;
+    
+    padding: 12% 2%;
+    
+}
+
+.choose-btn{
+    font-size: 1rem;
+    background-color: #362F74;
+    border: none;
+    padding: 3% 20%;
+    position: relative;
+}
+
+.choose-btn:hover{
+    background-color: #2C284F;
+}
+
+.cmp-btn{
+    margin-bottom: 8%;
+}
+
+.arrow{
+    position: absolute;
+    top: 35%;
+    right: 18%;
+}
+
+h4{
+    overflow-y: hidden;
+}
+
+.select-row{
+    padding: 0 4% 0 0;
 }
 
 
@@ -167,7 +193,32 @@
         margin-top: 30%;
     }
 
+    .choose-btn{
+        padding: 3% 20%;
+        position: relative;
+    }
 
+    .arrow{
+        position: absolute;
+        top: 40%;
+        right: 20% !important;
+        
+    }
+
+    .select-row{
+        padding: 0 7% 0 0;
+    }
+
+    .acct-details{
+        height: 300px !important;
+    }
+
+}
+
+@media  only screen and (max-width:1200px){
+    .arrow{
+        right: 12%;
+    }
 }
 
 
